@@ -1,0 +1,93 @@
+body {
+    background: #fff;
+    color: #212529;
+}
+
+.navbar {
+    background: #212529;
+}
+
+.inicio {
+    background: #fff;
+}
+
+.inicio h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.inicio p {
+    color: #495057;
+}
+
+.btn-rosa {
+    background: #ffc107;
+    border-color: #ffc107;
+    color: #212529;
+}
+
+.btn-rosa:hover {
+    background: #e0a800;
+    border-color: #d39e00;
+    color: #212529;
+}
+
+.texto-suave {
+    color: #6c757d;
+}
+
+.filme {
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #dee2e6;
+    color: #212529;
+}
+
+.filme .badge {
+    background: #6c757d;
+    font-weight: 400;
+}
+
+.capa {
+    height: 150px;
+}
+
+.capa-1 {
+    background: linear-gradient(135deg, #51273f, #241426);
+}
+
+.capa-2 {
+    background: linear-gradient(135deg, #282047, #541e3b);
+}
+
+.capa-3 {
+    background: linear-gradient(135deg, #71394b, #34203a);
+}
+
+.faixa {
+    background: #f8f9fa;
+}
+
+.passo {
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.35rem;
+}
+
+.passo strong {
+    margin-right: 0.35rem;
+    color: #997404;
+}
+
+footer {
+    background: #212529;
+    color: #f8f9fa;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 576px) {
+    .inicio h1 {
+        font-size: 2.2rem;
+    }
+}
